@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+html {
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #262626;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.cabecalho a:hover .logo{
+    color: #8C8C8C;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.cabecalho .menu li a:hover{
+    background-color: #8C8C8C;
+    border-radius: 50px ;
+    transition: 0.2s;
+}
+
+.home {
+    display: flex;
+    min-height: calc(100vh -125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .informacoes h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.home .redes-sociais{
+    display: flex;
+    gap: 20px;
+
+}
+
+.home .redes-sociais a svg{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.5s;
+}
+
+.home .redes-sociais a svg:hover {
+    color: #8C8C8C;
+    border: 1px solid #8C8C8C;
+    transform: scale(1.1);
+}
+
+.home .container-foto img{
+    width: 400px;
+}
+
+.musicas {
+    padding: 70px 0 70px;
+}
+.musicas .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.musicas .musica-ativo{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.musicas .bnt-mostrar-mais {
+    background: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    width: 180px;
+    padding: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.musicas .bnt-mostrar-mais:hover{
+    background-color: #474747;
+    transition: 0.3ps;
+}
